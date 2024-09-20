@@ -1,0 +1,26 @@
+{
+  "name": "clcolorize",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/sashamanko/clcolorize#readme",
+  "repository": {
+    "url": "https://github.com/sashamanko/clcolorize"
+  },
+  "keywords": [
+    "command line",
+    "colorize"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "author": "sashamanko",
+  "license": "MIT",
+  "description": "Simple library for command line coloring",
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "tsup": "^8.2.4",
+    "typescript": "^5.6.2"
+  }
+}
