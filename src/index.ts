@@ -59,9 +59,9 @@ const clc = (string: string, style: (keyof Omit<Colors, 'isColorSupported'>)[]) 
 	return style.reduce((prev, curr) => (createColors()[curr](prev)), string)
 }
 
-export default createColors();
+const clcolorize = createColors()
 
 export {
-	createColors as clcolorize,
+	clcolorize,
 	clc
 }
